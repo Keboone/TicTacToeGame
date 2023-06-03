@@ -19,8 +19,8 @@ public class TicTacToe
 		
 		int z = 1;
 		
-		String kółko = "o";
-		String krzyżyk = "x";
+		String circle = "o";
+		String cross = "x";
 		
 		for(int i=0; i<tab.length; i++)
 		{
@@ -50,7 +50,7 @@ public class TicTacToe
 				{
 					if(tab[a-1][b-1] == " ")
 					{
-						tab[a-1][b-1] = kółko;
+						tab[a-1][b-1] = circle;
 						
 						for(int i=0; i<tab.length; i++)
 						{
@@ -122,7 +122,7 @@ public class TicTacToe
 						
 						if(tab[c-1][d-1] == " ")
 						{
-							tab[c-1][d-1] = krzyżyk;
+							tab[c-1][d-1] = cross;
 							
 							for(int i=0; i<tab.length; i++)
 							{
